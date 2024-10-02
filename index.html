@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini-Enhanced AI for Mental Health & Emotional Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Gemini-Enhanced AI for Mental Health & Emotional Support</h1>
+</header>
+
+<section>
+    <div class="tagline">AI-Powered Support: Breaking Barriers in Mental Health Care</div>
+    <div class="description">
+        <p>Instant Help, Tailored Solutions: Your Mental Health Ally. Personalized Mental Health Support: Accessible Anytime, Anywhere.</p>
+        <p>The project leverages advanced AI technology to provide accessible, personalized mental health solutions. With instant support and scalable solutions, it is designed to help individuals receive care whenever and wherever they need it.</p>
+    </div>
+
+    <h3>Technologies Used</h3>
+    <ul class="technologies">
+        <li>Flask</li>
+        <li>TensorFlow</li>
+        <li>PyTorch</li>
+        <li>Machine Learning</li>
+        <li>Python</li>
+        <li>Natural Language Processing (NLP)</li>
+        <li>MongoDB</li>
+        <li>AWS (Amazon Web Services)</li>
+    </ul>
+
+    <a class="download-btn" href="GeminiEnhancedAI_Project.zip" download>Download Project</a>
+
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Chat with Gemini: Your 24/7 Mental Health Ally</title>
+  <style>
+    .chatbot-container {
+      width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #chatbox {
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    .user-message {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .ai-message {
+      background-color: #cff;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="chatbot-container">
+    <h3>Chat with Gemini: Your 24/7 Mental Health Ally</h3>
+    <div id="chatbox"></div>
+    <input type="text" id="user-input" placeholder="Ask anything..." onkeypress="if(event.key === 'Enter') sendMessage()">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <script>
+    let chatbox = document.getElementById("chatbox");
+    let userInput = document.getElementById("user-input");
+
+    function sendMessage() {
+      let userInputValue = userInput.value.trim();
+      if (userInputValue !== "") {
+        // Create a new message element
+        let messageElement = document.createElement("div");
+        messageElement.className = "user-message";
+        messageElement.innerHTML = userInputValue;
+
+        // Add the message to the chatbox
+        chatbox.appendChild(messageElement);
+
+        // Clear the user input field
+        userInput.value = "";
+
+        // Simulate a response from the AI (you can replace this with your AI logic)
+        setTimeout(() => {
+          let responseElement = document.createElement("div");
+          responseElement.className = "ai-message";
+          responseElement.innerHTML = "Hello! I'm Gemini, your 24/7 mental health ally. How can I assist you today?";
+          chatbox.appendChild(responseElement);
+        }, 1000);
+      }
+    }
+  </script>
+</body>
+</html>
+</section>
+
+<footer>
+    &copy; 2024 Gemini-Enhanced AI for Mental Health Support
+    <div></div>Dhanamurthy
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
